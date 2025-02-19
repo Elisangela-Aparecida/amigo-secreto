@@ -1,11 +1,11 @@
 :root {
-    --color-primary: #4B69FD;
-    --color-secondary: #FFF9EB;
-    --color-tertiary: #C4C4C4;
-    --color-button: #fe652b;
-    --color-button-hover: #e55720;
-    --color-text: #444444;
-    --color-white: #FFFFFF;
+    --color-primary: #0998f7;
+    --color-secondary: #edf1f3;
+    --color-tertiary: #0c99ac;
+    --color-button: #298a03;
+    --color-button-hover: #0b7e6b;
+    --color-text: #0a0101;
+    --color-white: #f5ecec;
 }
 
 /* Estilos gerais */
@@ -90,6 +90,7 @@ body {
 .button-container {
     width: 300px;
     justify-content: center;
+    
 }
 
 /* Estilos de entrada de texto */
@@ -97,7 +98,7 @@ body {
     flex: 1;
     padding: 10px 15px;
     font-size: 16px;
-    border: 2px solid #333;
+    border: 2px solid #b6081f;
     border-right: none;
     border-radius: 25px 0 0 25px;
     font-family: "Merriweather", serif;
@@ -122,7 +123,7 @@ button {
 }
 
 .button-add:hover {
-    background-color: #a1a1a1;
+    background-color: #0ac4ab;
 }
 
 /* Listas */
@@ -136,7 +137,7 @@ ul {
 
 .result-list {
     margin-top: 15px;
-    color: #05DF05;
+    color: #880421;
     font-size: 22px;
     font-weight: bold;
     text-align: center;
