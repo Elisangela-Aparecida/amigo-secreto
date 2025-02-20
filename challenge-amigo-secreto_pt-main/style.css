@@ -1,11 +1,11 @@
 :root {
-    --color-primary: #0998f7;
-    --color-secondary: #edf1f3;
+    --color-primary:rgba(218, 103, 183, 0.95);
+    --color-secondary: #b7babbef;
     --color-tertiary: #0c99ac;
-    --color-button: #298a03;
-    --color-button-hover: #0b7e6b;
+    --color-button: #0a6970;
+    --color-button-hover: #128b77;
     --color-text: #0a0101;
-    --color-white: #f5ecec;
+    --color-white: #f7f0f0;
 }
 
 /* Estilos gerais */
@@ -124,6 +124,16 @@ button {
 
 .button-add:hover {
     background-color: #0ac4ab;
+}
+
+.button-restart {
+    width: clamp(30px, 10vw, 50px);
+    height: clamp(30px, 10vw, 50px);
+    cursor: pointer;
+    padding-left: 10px;
+    }
+.button-restart:hover {
+        filter: brightness(0.9)
 }
 
 /* Listas */

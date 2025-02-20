@@ -29,7 +29,7 @@ function exibirAmigos() {
          let amigoSecreto = amigos[index];
          let resultado = document.querySelector('#resultado');
          resultado.innerHTML = `<li>O amigo secreto sorteado é: ${amigoSecreto}<li>`;
-         confeteDoCliff();
+         
       }
       else {
          validarNome();
@@ -39,4 +39,8 @@ function exibirAmigos() {
       limparListas();
       amigos = [];
    }
+         
+       
+   
+
    
