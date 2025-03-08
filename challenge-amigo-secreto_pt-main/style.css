@@ -52,6 +52,10 @@ body {
     width: 100%;
 }
 
+img {
+    max-width: 500px;
+  }
+
 /* Títulos */
 .main-title {
     font-size: 48px;
